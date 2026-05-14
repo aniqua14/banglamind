@@ -40,16 +40,17 @@ This project frames emotion detection as an **LLM fine-tuning problem on a low-r
 
 ## 🏗️ Architecture
 
+```
 Bangla Text Input
-↓
+      ↓
 BanglaBERT Tokenizer (Bangla-aware WordPiece)
-↓
+      ↓
 BanglaBERT Encoder (12 layers, 164M parameters)
-↓
+      ↓
 Classification Head (768 → 3)
-↓
+      ↓
 Softmax → {joy, sadness, anger}
-
+```
 ### Why BanglaBERT over classical ML?
 
 | Aspect | TF-IDF + LogReg | BanglaBERT |
@@ -74,10 +75,11 @@ Softmax → {joy, sadness, anger}
 
 **Class distribution:**
 
+```
 Joy     : 6,277 (48%)  ████████████
 Sadness : 3,963 (31%)  ████████
 Anger   : 2,752 (21%)  █████
-
+```
 ---
 
 ## 📈 Results
