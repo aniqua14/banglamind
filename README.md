@@ -20,7 +20,7 @@ pinned: false
 
 👉 **[Try BanglaMind on Hugging Face Spaces](https://huggingface.co/spaces/aniqua-nawar/banglamind)**
 
-![BanglaMind Demo](assets/demo.png)
+![BanglaMind Demo](https://raw.githubusercontent.com/aniqua14/banglamind/main/assets/demo.png)
 
 ---
 
